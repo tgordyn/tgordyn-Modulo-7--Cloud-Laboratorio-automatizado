@@ -23,7 +23,6 @@ jobs:
       - name: Add .nojekyll
         run: touch dist/.nojekyll
       - name: Deploy to gh-pages
-        run: |
-          git config user.name "GitHub Actions"
-          git config user.email "actions@github.com"
-          npm run deploy-gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npm run deploy
