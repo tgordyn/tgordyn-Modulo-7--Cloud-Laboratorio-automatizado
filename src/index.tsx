@@ -7,7 +7,7 @@ const container = document.getElementById("root");
 const root = createRoot(container);
 
 root.render(
-  <BrowserRouter basename="/tgordyn-Modulo-7--Cloud-Laboratorio">
+  <BrowserRouter basename="/tgordyn-Modulo-7--Cloud-Laboratorio-automatizado">
     <App />
   </BrowserRouter>
 );
