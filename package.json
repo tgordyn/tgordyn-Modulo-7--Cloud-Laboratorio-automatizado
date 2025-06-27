@@ -10,7 +10,7 @@
     "type-check:watch": "npm run type-check -- --watch",
     "start:dev": "webpack-dev-server --mode development --open",
     "build": "rimraf dist && webpack --mode production",
-    "deploy": "gh-pages -d dist -b gh-pages -r https://github.com/tgordyn/tgordyn-Modulo-7--Cloud-Laboratorio.git"
+    "deploy": "gh-pages -d dist -b gh-pages -r https://github.com/tgordyn/tgordyn-Modulo-7--Cloud-Laboratorio-automatizado.git"
   },
   "author": "",
   "license": "ISC",
